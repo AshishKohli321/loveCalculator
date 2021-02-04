@@ -1,0 +1,84 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/header_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    background-attachment: fixed;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 35px;
+}
+
+.nav-item{
+    margin: 3px;
+    color: #fff;
+}
+.nav-link{
+    color: #fff !important;
+}
+.nav-link:hover{
+    color:#5e6b88 !important ;
+    transition: .5s;
+}
+.navbar-toggler{
+    background-color: #fff !important;
+}
+.header h1{
+    padding-top: 200px;
+    padding-bottom: 0px;
+    font-size: 55px;
+    text-align: center;
+    color: #fff;
+}
+
+.header p{
+    text-align: center;
+    color: #fff;
+}
+
+.input-group{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    margin: auto;
+    background: #fff;
+    outline: none;
+}
+.form-control{
+    border-radius: 30px !important;
+    border: 0 !important;
+    margin: 2px;
+    box-shadow: none !important;
+    outline: none;
+}
+.input-group-text{
+    width: 100px;
+    background-image: linear-gradient(#ec3e4d,#e60808);
+    border: 0 !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    margin-top: 5px !important;
+    margin: 2px;
+    padding: 6x;
+    box-shadow: none !important;
+    text-align: center;
+    justify-content: center;
+}
+::placeholder{
+    font-size: 15px;
+}
